@@ -11,6 +11,6 @@ Here are the technologies used in this project.
 
 --JavaScript
 
-##Author
+## Author
 
 --Filipe Meirelles
