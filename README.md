@@ -11,6 +11,11 @@ Here are the technologies used in this project.
 
 --JavaScript
 
+## Features
+
+--You can set the quantity of Words or Paragraphs you want it to generate.
+--The result will be shown in the same page.
+
 ## Author
 
 --Filipe Meirelles
