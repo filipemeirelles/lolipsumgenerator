@@ -1,2 +1,2 @@
-# lolipsumgenerator
-Lorem ipsum generator using the name of League of Legends champions.
+# LoL Ipsum Generator
+A simple lorem ipsum generator using the name of the champions from the game League of Legends.
