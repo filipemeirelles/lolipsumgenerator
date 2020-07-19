@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Red+Rose&family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <figure class="logo_image">
+      <img src="challenger.png">
+    </figure>
+    <h1 class="site_title">LoL Ipsum Generator</h1>
+  </header>  
+  <div class="container">
+    <section class="config_gen">
+      <div class="card">
+        <div class="columns">
+          <div class="column is-gapless">
+            <div class="card-content">
+              <form action="" id="generate_form">
+                <div class="field-body">
+                  <div class="control">
+                    <input id="count" class="input is-info is-rounded" type="number" placeholder="Exemplo: 1, 10, 50...">
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card-content">
+              <div class="select is-rounded">
+                <select id="select_kind">
+                  <option value="paragraphs">Paragraphs</option>
+                  <option value="words">Words</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card-content">
+              <button type="submit" class="button is-info is-rounded">GENERATE</button>
+            </div>
+          </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="result_gen">
+      <div class="card">
+        <div class="card-content">
+          <div id="generate_result"></div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<footer class="site_footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Designed by:</strong><em> Filipe Meirelles</em>
+    </p>
+  </div>
+</footer>
+
+</html>

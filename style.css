@@ -1,0 +1,43 @@
+.logo {
+    max-height: 64px !important;
+    height: 64px;
+    width: 64px !important;
+}
+
+.config_gen {
+    margin-top: 100px;
+}
+
+.result_gen {
+    margin-top: 50px;
+}
+
+body {
+    background-color: #C7DDF2 ;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+}
+
+.input {
+    height: 100px;
+    width: 100px;
+}
+
+.site_title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    
+}
+
+.logo_image {
+padding-left: 45%;
+padding-top: 15px;
+}
+
+.site_footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
